@@ -1,0 +1,25 @@
+.active-nav {
+  border-bottom: 2px solid var(--bs-success);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+article {
+  max-width: min(100%, 100ch);
+}
+article img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+article img:only-child {
+  display: block !important;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 5px;
+  margin: 3rem auto;
+  max-width: min(500px, 60%);
+}

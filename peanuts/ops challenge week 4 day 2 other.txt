@@ -1,0 +1,6 @@
+New-Item -Path '\Users\Public\Documents\network_report2.txt' -ItemType File
+
+{ipconfig /all | select-string "IPv4"
+
+>>/Users\Public\Documents\network_report2.txt
+}

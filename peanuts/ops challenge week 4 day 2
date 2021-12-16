@@ -1,0 +1,5 @@
+$env:PSModulePath
+function ipconfig/all() {
+ipconfig /all | select-string "IPv4"
+}
+ping 8.8.8.8

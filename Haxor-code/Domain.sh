@@ -17,4 +17,4 @@ IPs=$(dig $url | grep "$url\.")
 host $url | grep "has address"
 whois $url | grep "IPv4"
 nslookup -type=any $url
-
+ss
